@@ -28,6 +28,6 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.find |i| 
-|i| i.odd?
+  array.find {|i| i == "cheddar" || i== "gouda"
+
 end
